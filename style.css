@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:1hv 5vw ;
+   height: 150px;
+   text-decoration: none;
+   font-size: 1.5rem;
+   background-color: #1D546D;
+   
+}
+
+.logo {
+    margin-left: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+    color:#061E29 ;
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:#061E29 ;
+    margin-top: 20px;
+    text-align: end;
+    justify-content: flex-end;
+}
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 80px;
+    font-size: 2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.navbar-links li a:hover{
+    color: lightgray;
+}
+.navbar-right{
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #061E29;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 4px;
+}
+
+.hero-content h1{
+    flex: 1;
+    font-size: 60px;
+    padding: 20px;
+    margin-left:50px;
+    margin-top: 80px;
+}
+
+.hero-content p{
+    flex: 1;
+    padding: 20px;
+    margin-left:50px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0A2E3D;
+}
+
+img {
+    width: 600px;
+    text-align: center;
+    float: right;
+   border-radius: 10px;
+}
+
