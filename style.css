@@ -47,7 +47,7 @@ span{
     text-decoration: none;
     color: white;
     margin-right: 80px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -100,4 +100,5 @@ img {
     float: right;
    border-radius: 10px;
 }
+
 
